@@ -70,3 +70,19 @@ table {
 body {
 	font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", メイリオ, sans-serif;
 }
+
+#header {
+	background-color: #1c1c1c;
+	height: 53px;
+}
+
+#header h1 {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#header h1 a {
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+}
