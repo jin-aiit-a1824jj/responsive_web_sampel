@@ -1,0 +1,31 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -mz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#wrapper {
+    width: 1000px;
+    height: 900px;
+    background-color: pink;
+    margin: auto;
+}
+
+#left {
+    width: 400px;
+    height: 100px;
+    float: left;
+    background-color: #eee;
+    border: 10px solid black;
+}
+
+#right {
+    width: 600px;
+    height: 100px;
+    float: right;
+    background-color: #999;
+}
