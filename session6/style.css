@@ -188,3 +188,19 @@ div#mainimage img {
 	background: url("images/icon_footer.png") no-repeat 96% center;
 	background-size: 6px 12px;
 }
+
+#footer {
+	background-color: #191919;
+	color: #fff;
+	padding: 16px 15px;
+}
+
+#footer-title {
+	float: left;
+	font-size: 15px;
+}
+
+#footer-copy {
+	float: right;
+	font-size: 15px;
+}
