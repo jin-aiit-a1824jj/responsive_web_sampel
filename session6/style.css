@@ -173,3 +173,18 @@ div#mainimage img {
 .new_list h1 {
 	font-size: 12px;
 }
+
+#footer_nav li {
+	background-color: #333333;
+	border-bottom: 1px solid #5c5b5b;
+}
+
+#footer_nav li a {
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+	padding: 12px 15px;
+	background: url("images/icon_footer.png") no-repeat 96% center;
+	background-size: 6px 12px;
+}
