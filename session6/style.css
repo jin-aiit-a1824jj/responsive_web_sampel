@@ -110,6 +110,7 @@ div#mainimage img {
 #news #news_header {
 	background-color: #1c1c1c;
 	color: #fff;
+	padding: 8px 15px;
 }
 
 #news #news_header h1 {
@@ -120,4 +121,10 @@ div#mainimage img {
 #news #news_header #more {
 	font-size: 14px;
 	float: right;
+}
+
+#news #news_header #more a {
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
 }
