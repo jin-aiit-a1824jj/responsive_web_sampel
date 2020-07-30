@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+a {
+    opacity: 0.7;
+    -webkit-opacity: 0.7; /*(Chrome, Safari, 新しいバージョンの Opera, ほぼすべての iOS ブラウザー (Firefox for iOS を含む)。基本的に WebKit ベースのブラウザーすべて)*/
+    -moz-opacity: 0.7;    /*(Firefox) */
+    -o-opacity: 0.7;      /*(WebKit 導入前の古い Opera) */
+    -ms-opacity: 0.7;     /*(Internet Explorer と Microsoft Edge) */
+}
