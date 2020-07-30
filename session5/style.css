@@ -1,1 +1,18 @@
 @charset "utf-8";
+
+a {
+    color: #fff;
+    text-decoration: none;
+    width: 340px;
+    height: 88px;
+    /* background-color: black; */
+    display: block;
+    text-align: center;
+    line-height: 88px;
+
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,202,128,1) 0%, rgba(255,162,32,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,202,128,1) 0%, rgba(255,162,32,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,202,128,1) 0%, rgba(255,162,32,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffa220",GradientType=1);
+}
