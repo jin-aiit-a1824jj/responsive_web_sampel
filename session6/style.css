@@ -144,3 +144,32 @@ div#mainimage img {
 	border-bottom: 1px solid #cccccc;
 
 }
+
+.news_list a {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #2a2929;
+	background: url("images/icon_right02.png") no-repeat 96% center;
+	background-size: 6px 12px;
+}
+
+.news_list .thumb {
+	float: left;
+	margin-right: 9px;
+}
+
+.news_list .thumb img {
+	width: 58px;
+}
+
+.news_list .date {
+	color: #656565;
+	font-size: 12px;
+	margin-top: 7px;
+	margin-bottom: 8px;
+}
+
+.new_list h1 {
+	font-size: 12px;
+}
