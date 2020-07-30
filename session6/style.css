@@ -102,3 +102,7 @@ p#nav_btn a {
 	text-align: center;
 	padding-top: 15px;
 }
+
+div#mainimage img {
+	width: 100%;
+}
