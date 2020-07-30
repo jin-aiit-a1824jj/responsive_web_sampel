@@ -106,3 +106,18 @@ p#nav_btn a {
 div#mainimage img {
 	width: 100%;
 }
+
+#news #news_header {
+	background-color: #1c1c1c;
+	color: #fff;
+}
+
+#news #news_header h1 {
+	font-size: 14px;
+	float: left;
+}
+
+#news #news_header #more {
+	font-size: 14px;
+	float: right;
+}
