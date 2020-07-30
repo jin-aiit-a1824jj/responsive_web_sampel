@@ -127,4 +127,8 @@ div#mainimage img {
 	color: #fff;
 	font-size: 12px;
 	text-decoration: none;
+	display: block;
+	background: url("images/icon_right.png") no-repeat left center;
+	padding-left: 18px;
+	background-size: 6px 12px;
 }
