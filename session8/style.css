@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+div#test {
+    background-color: yellow;
+}
+
+@media screen and (max-width: 1000px) {
+    div#test {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    div#test {
+        background-color: green;
+    }
+}
