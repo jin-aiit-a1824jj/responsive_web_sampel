@@ -52,4 +52,29 @@ footer {
         width: auto;
         padding: 0 30px;
     }
+
+    div#left {
+        width: 49%;
+        margin-right: 2%;
+        /* (%化したい横幅 + ウェブサイト全体の横幅) * 100 = ○% */
+    }
+    
+    div#right {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    div#left {
+        float: none;
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    div#right {
+        float: none;
+        width: auto;
+    }
 }
