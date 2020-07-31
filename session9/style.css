@@ -165,9 +165,16 @@ header nav {
 }
 
 #service li img {
-	width: 310px;
+	width: 100%;
 }
-
+@media screen and (max-witdh:460px){
+	#service li {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+		float: none;
+	}
+}
 
 #service li:last-child {
 	margin-right: 0;
