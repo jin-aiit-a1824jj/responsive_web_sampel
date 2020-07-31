@@ -201,13 +201,13 @@ header nav {
 }
 
 #content-bottom {
-	width: 980px;
+	width: 100%;
 	margin: 0 auto;
 }
 
 #news {
 	float: right;
-	width: 650px;
+	width: 67.708333%;
 }
 #news h2 {
 	font-size: 22px;
@@ -241,7 +241,7 @@ header nav {
 }
 
 #sidebar {
-	width: 280px;
+	width: 29.1666667%;
 	float: left;
 }
 #sidebar ul li {
@@ -270,6 +270,16 @@ header nav {
 	background: url(images/icon_voice.png) no-repeat 15px center;
 }
 
+@media screen and (max-width: 460px) {
+	#new, #sidebar {
+		float: none;
+		width: 100%;
+	}
+
+	#new {
+		margin-bottom: 30px;
+	}
+}
 
 
 footer {
