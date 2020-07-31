@@ -103,7 +103,6 @@ header nav {
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
-
 	.header-nav li {
 		float: none;
 		margin-left: 0;
@@ -128,13 +127,12 @@ header nav {
 	height: 300px;
 	margin: 0 auto;
 }
-@media screen and (max-witdh:960px){
+@media screen and (max-width:960px){
 	#mainimage {
 		height: 180px;
 		overflow: hidden;
 	}
 }
-
 #mainimage img {
 	width: 100%;
 	min-width: 600px;
@@ -182,7 +180,8 @@ header nav {
 #service li img {
 	width: 100%;
 }
-@media screen and (max-witdh:460px){
+
+@media screen and (max-width:460px){
 	#service li {
 		width: 100%;
 		margin-right: 0;
@@ -222,7 +221,7 @@ header nav {
 
 #news {
 	float: right;
-	width: 67.708333%;
+	width: 67.708333333333%;
 }
 #news h2 {
 	font-size: 22px;
@@ -256,7 +255,7 @@ header nav {
 }
 
 #sidebar {
-	width: 29.1666667%;
+	width: 29.166666666667%;
 	float: left;
 }
 #sidebar ul li {
@@ -290,12 +289,10 @@ header nav {
 		float: none;
 		width: 100%;
 	}
-
 	#new {
 		margin-bottom: 30px;
 	}
 }
-
 
 footer {
 	background-color: #63abd4;
@@ -343,11 +340,9 @@ footer {
 		float: none;
 		width: 100%;
 	}
-
 	#footer-logo {
 		text-align: center;
 	}
-
 	#footer-nav li {
 		float: none;
 		margin-left: 0;
