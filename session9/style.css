@@ -124,6 +124,7 @@ header nav {
 
 #mainimage img {
 	width: 100%;
+	min-width: 600px;
 }
 
 
@@ -145,21 +146,20 @@ header nav {
 
 
 #container {
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	margin: 0 auto;
-	box-sizing: border-box;
-	padding: 0 15px;
 }
 
 #service {
-	width: 960px;
+	width: 100%;
 	margin: 45px auto;
 }
 
 #service li {
 	float: left;
-	margin-right: 15px;
-	width: 310px;
+	margin-right: 1.5625%;
+	width: 32.291%;
 	/* 310px / 全体の横幅 * 100 */
 
 }
